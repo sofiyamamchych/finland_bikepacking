@@ -325,15 +325,11 @@ article{
 
 .feedback{
 	margin-left: calc(50% - 150px);
-	
+	margin-top: 20px;
+	width: 300px;
 }
 
-.mob-form2{
-		display: none;
-	}
-textarea{
-	width: 246px;
-}
+
 @keyframes team-photo{
 	0% {transform: none;}
 	25% {transform: rotate(3deg);}
@@ -560,16 +556,11 @@ footer{
 		
 	}
 
-	.mob-form1{
-		display: none;
-	}
-
-	.mob-form2{
-		display: block;
-	}
-
+	
 	.feedback{
+	width: 600px;
 	margin-left: calc(50% - 300px);
+	
 	}
 
 
