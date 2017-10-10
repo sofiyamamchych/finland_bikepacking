@@ -566,6 +566,11 @@ footer{
 
 }
 @media (min-width:780px){
+	.dropdown input:checked~div{
+		display: none;
+	}
+
+
 	.menulines{
 		display: block;
 		margin-left: 10%;
