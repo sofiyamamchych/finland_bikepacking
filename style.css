@@ -394,7 +394,7 @@ footer{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-
+	margin-right: 32px;
 }
 
 .contact li{
@@ -415,6 +415,12 @@ footer{
 .contact li a:hover{
 	color: #68751D;
 }
+
+ .current {
+		border: 1px solid white;
+		padding: 5px;
+	}
+
 
 .soc{
 	display: flex;
@@ -599,11 +605,7 @@ footer{
 	  	line-height: 1.2;
 	  	text-align: left;
 	}
-	.menu .current{
-		border: 1px solid white;
-		padding: 5px;
-	}
-
+	
 
 	.menu li a:hover{
 		color: #e0c34f;
@@ -655,6 +657,11 @@ footer{
 	left: calc(50% - 118px);
 	
 	}
+
+	.contact{
+
+	margin-right: 0;
+}
 	
 }
 
