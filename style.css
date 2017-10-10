@@ -321,24 +321,16 @@ article{
 	animation-name: team-photo-hover;
 	animation-duration: 1s;
 }
+
+
 .feedback{
-	margin-left: calc(50% - 123px);
-	color: #A6BC93;
-}
-.feedback a{
-	text-decoration: none;
-	color: white;
-	background-color: #A6BC93;
-	padding: 4px 36px 4px 36px; 
-}
-.feedback a:hover{
-	background-color: #68751D;
+	margin-left: calc(50% - 150px);
+	
 }
 
-.feedback input{
-	line-height: 1.8;
-	width: 246px;
-}
+.mob-form2{
+		display: none;
+	}
 textarea{
 	width: 246px;
 }
@@ -547,6 +539,8 @@ footer{
 	left: calc(50% - 68px);
 	
 	}
+
+	
 }
 
 
@@ -566,8 +560,17 @@ footer{
 		
 	}
 
-	
+	.mob-form1{
+		display: none;
+	}
 
+	.mob-form2{
+		display: block;
+	}
+
+	.feedback{
+	margin-left: calc(50% - 300px);
+	}
 
 
 }
@@ -697,13 +700,7 @@ footer{
 		width: 450px;
 		
 	}
-	textarea, .feedback input{
-		width: 80%;
-	}
-	.feedback{
-		margin-left: 20%;
-	}
-
+	
 	.gear1{
 	float: left;
 	width: 45%;
