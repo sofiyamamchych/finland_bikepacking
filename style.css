@@ -594,6 +594,11 @@ footer{
 	  	line-height: 1.2;
 	  	text-align: left;
 	}
+	.menu .current{
+		border: 1px solid white;
+		padding: 5px;
+	}
+
 
 	.menu li a:hover{
 		color: #e0c34f;
