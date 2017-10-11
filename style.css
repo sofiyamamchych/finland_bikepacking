@@ -216,16 +216,14 @@ article{
   	text-align: center;
 }
 
-.map1, .map2, .map3{
+.map{
 	margin-bottom: 40px;
 }
-.map1{
+.map{
 	margin-left: calc(50% - 150px);
+	width: 300px;
+	height: 200px;
 }
-.map2, .map3{
-	display: none;
-}
-
 
 .midline{
 	width: 80px;
@@ -615,12 +613,9 @@ footer{
 	left: calc(50% - 365px);
 	}
 
-	.map1{
-		display: none;
-		
-	}
-	.map2{
-		display: block;
+	.map{
+		width: 640px;
+		height: 300px;
 		margin-left: calc(50% - 320px);
 	}
 	.youtube1{
@@ -673,11 +668,11 @@ footer{
 	left: calc(50% - 121px);
 	}
 
-	.map2{
-		display: none;
-	}
-	.map3{
-		display: block;
+	
+	.map{
+		width: 960px;
+		height: 300px;
+		margin-left: calc(50% - 480px);
 	}
 
 	.youtube2{
