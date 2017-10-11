@@ -286,21 +286,11 @@ article{
 	background-image: url(img/mid-soc1.png)
 }
 
-.youtube1, .youtube2, .youtube3{
+.youtube{
 	margin-bottom: 20px;
-}
-.youtube1{
 	margin-left: calc(50% - 160px);
-}
-
-.youtube2{
-	display: none;
-	margin-left: calc(50% - 320px);
-}
-
-.youtube3{
-	display: none;
-	margin-left: calc(50% - 480px);
+	width: 320px;
+	height: 180px;
 }
 
 .stay-img{
@@ -618,13 +608,12 @@ footer{
 		height: 300px;
 		margin-left: calc(50% - 320px);
 	}
-	.youtube1{
-		display: none;
-	}
-	.youtube2{
-		display: block;
-	}
 	
+	.youtube{
+		margin-left: calc(50% - 320px);
+		width: 640px;
+		height: 360px;
+	}
 	.stay1{
 		float: left;
 	}
@@ -675,12 +664,10 @@ footer{
 		margin-left: calc(50% - 480px);
 	}
 
-	.youtube2{
-		display: none;
-	}
-
-	.youtube3{
-		display: block;
+	.youtube{
+		margin-left: calc(50% - 480px);
+		width: 960px;
+		height: 540px;
 	}
 	.stay-img{
 		width: 450px;
